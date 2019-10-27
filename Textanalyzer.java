@@ -15,7 +15,7 @@ public static void main(String[] args) {
   System.out.print("Please enter a sentence: ");
   Scanner scan = new Scanner(System.in);
   String input = scan.nextLine();
-  String alph = new                         String("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ");
+  String alph = new String("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ");
 	
   //for loop to loop through the alphabet
   for(int Count2 = 0; Count2 < alph.length(); Count2++) {  
