@@ -1,10 +1,8 @@
 import java.util.Scanner;
-
 public class Main 
 {
 
 //function to calculate how many times some character (charc) is in the text (input)
-
 public static int counting(String input, char charc) 
   {
 int times = 0;
@@ -13,28 +11,22 @@ for(int Count1 = 0; Count1 < input.length(); Count1++)
     {
 
   if( charc == input.charAt(Count1))
-
-     times = times +1;
+    times = times +1;
     }
 return times;
   }
 
- 
-
 public static void main(String[] args)
       {
+  System.out.print("Please enter a sentence: ");
 
-  System.out.print("Please enter a sentence: ");
-
-  Scanner scan = new Scanner(System.in);
+  Scanner scan = new Scanner(System.in);
 
   String input = scan.nextLine();
 
   String alph = new String("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ");
 
-   
-
-  //for loop to loop through the alphabet
+  //for loop to loop through the alphabet
 
   for(int Count2 = 0; Count2 < alph.length(); Count2++)
         {    
