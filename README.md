@@ -8,6 +8,7 @@ of each character with respect to the whole string, as well as a barchart.
 **Example:**
 
 - Please enter a sentence: this is a test
+  
   a: 9%  =========
 
   e: 9%  =========
