@@ -5,9 +5,9 @@ This is my first program written in Java.
 It takes your input as a string and calculates the percentage
 of each character with respect to the whole string, as well as a barchart.
 
-**Example:**
+**Example of the output:**
 
--Please enter a sentence: this is a test
+Please enter a sentence: this is a test
   
  a: 9%  =========
 
