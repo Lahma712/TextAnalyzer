@@ -5,18 +5,18 @@ This is my first program written in Java.
 It takes your input as a string and calculates the percentage 
 of each character with respect to the whole string, as well as a barchart.
 
-======================================
+**======================================**
 
-What I learned from this project:
+**What I learned from this project:**
 
 How to use basic Java syntax:
     
-    -input and output
+    input and output
 
-    -declaring primitive & reference variables
+    declaring primitive & reference variables
     
-    -for-loops
+    for-loops
 
-    -methods
+    methods
 
-    -Understanding the scope of variables (method scope, loop scope etc)
+    Understanding the scope of variables (method scope, loop scope etc)
