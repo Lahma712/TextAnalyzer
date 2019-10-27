@@ -17,7 +17,7 @@ of each character with respect to the whole string, as well as a barchart.
 
   i: 18% ==================
 
-  s: 27% ===========================
+ s: 27% ===========================
 
   t: 18% ==================
 
