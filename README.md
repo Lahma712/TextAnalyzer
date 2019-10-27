@@ -9,11 +9,17 @@ of each character with respect to the whole string, as well as a barchart.
 
 - Please enter a sentence: this is a test
   a: 9%  =========
+
   e: 9%  =========
+
   h: 9%  =========
+
   i: 18% ==================
+
   s: 27% ===========================
+
   t: 18% ==================
+
   T: 9% ==========
 
 **==================================**
