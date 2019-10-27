@@ -5,7 +5,7 @@ This is my first program written in Java.
 It takes your input as a string and calculates the percentage
 of each character with respect to the whole string, as well as a barchart.
 
-**Example of the output:**
+**Example of the output for "this is a test":**
 
 Please enter a sentence: this is a test
   
