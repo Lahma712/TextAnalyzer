@@ -1,33 +1,28 @@
 import java.util.Scanner;
 
-public class Main {
+public class Main 
+{
 
 //function to calculate how many times some character (charc) is in the text (input)
 
-public static int counting(String input, char charc) 
-{
-
-int times = 0;
-
+public static int counting(String input, char charc) 
+  {
+int times = 0;
 //for loop to loop through the text and check for the character (charc) at each index
-
-for(int Count1 = 0; Count1 < input.length(); Count1++)
-{
+for(int Count1 = 0; Count1 < input.length(); Count1++)
+    {
 
   if( charc == input.charAt(Count1))
 
-     times = times +1;
-
-}
-
- return times;
-
-}
+     times = times +1;
+    }
+return times;
+  }
 
  
 
-public static void main(String[] args)
-{
+public static void main(String[] args)
+      {
 
   System.out.print("Please enter a sentence: ");
 
@@ -41,8 +36,8 @@ public static void main(String[] args)
 
   //for loop to loop through the alphabet
 
-  for(int Count2 = 0; Count2 < alph.length(); Count2++)
-{  
+  for(int Count2 = 0; Count2 < alph.length(); Count2++)
+        {    
 
    //percentage formula
 
@@ -54,11 +49,12 @@ public static void main(String[] args)
 
     String BarChart= new String("");
 
-    for (int Count3= 0; Count3 <= perc; Count3++){
+    for (int Count3= 0; Count3 <= perc; Count3++)
+          {
 
       BarChart= BarChart + "#";
 
-  }
+          }
 
   //we only want to display the characters whose perc is above 0
 
@@ -73,8 +69,8 @@ public static void main(String[] args)
 /* the ternary conditional operator ('?') is used to add 1 or 2 extra spaces behind the percentage "%" 
 so the bars are correctly aligned (depending on if the perc is 1 digit or 2 digits long) *\
 
-      }
-    }
-  }
+        }
+      }
+}
 
 
