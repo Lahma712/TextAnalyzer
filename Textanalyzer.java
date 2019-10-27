@@ -19,44 +19,28 @@ return times;
 public static void main(String[] args)
       {
   System.out.print("Please enter a sentence: ");
-
   Scanner scan = new Scanner(System.in);
-
-  String input = scan.nextLine();
-
-  String alph = new String("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ");
+  String input = scan.nextLine();
+  String alph = new String("abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ");
 
   //for loop to loop through the alphabet
-
   for(int Count2 = 0; Count2 < alph.length(); Count2++)
         {    
+  //percentage formula
+    int perc= 100* counting(input, alph.charAt(Count2))/(input.length() - counting(input, ' '));
 
-   //percentage formula
-
-    int perc= 100* counting(input, alph.charAt(Count2))/(input.length() - counting(input, ' '));
-
- 
-
-  //for loop to create the individual bars depending on the percentage
-
-    String BarChart= new String("");
-
-    for (int Count3= 0; Count3 <= perc; Count3++)
+  //for loop to create the individual bars depending on the percentage
+    String BarChart= new String("");
+    for (int Count3= 0; Count3 <= perc; Count3++)
           {
-
-      BarChart= BarChart + "#";
-
+      BarChart= BarChart + "#";
           }
 
   //we only want to display the characters whose perc is above 0
+    if (perc != 0) 
 
-    if (perc != 0) 
-
-   
-
-    //print one line (character + percentage + bar)
-
-     System.out.println(alph.charAt(Count2)  + ": " + perc + "%"+ ((String.valueOf(perc)).length() < 2 ? "  ": "") + 
+ //print one line (character + percentage + bar)
+    System.out.println(alph.charAt(Count2)  + ": " + perc + "%"+ ((String.valueOf(perc)).length() < 2 ? "  ": "") + 
 (String.valueOf(perc).length() == 2 ? " ": "") + BarChart); 
 /* the ternary conditional operator ('?') is used to add 1 or 2 extra spaces behind the percentage "%" 
 so the bars are correctly aligned (depending on if the perc is 1 digit or 2 digits long) *\
