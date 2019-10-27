@@ -33,7 +33,7 @@ public static void main(String[] args) {
     //print one line (character + percentage + bar)
      System.out.println(alph.charAt(Count2)  + ": " + perc + "%" + ((String.valueOf(perc)).length() < 2 ? "  ": "") + 
      (String.valueOf(perc).length() == 2 ? " ": "") + BarChart); 
-    // the ternary conditional operator ('?') is used to add 1 or 2 extra spaces behind the percentage "%" 
-       so the bars are correctly aligned (depending on if the perc is 1 digit or 2 digits long)
+    /* the ternary conditional operator ('?') is used to add 1 or 2 extra spaces behind the percentage "%" 
+       so the bars are correctly aligned (depending on if the perc is 1 digit or 2 digits long) *\
 	  }}}}
 	 
