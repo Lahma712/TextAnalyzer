@@ -62,7 +62,7 @@ public static void main(String[] args)
 
   //we only want to display the characters whose perc is above 0
 
-    if (perc != 0) {
+    if (perc != 0) 
 
    
 
@@ -76,5 +76,5 @@ so the bars are correctly aligned (depending on if the perc is 1 digit or 2 digi
       }
     }
   }
-}
+
 
