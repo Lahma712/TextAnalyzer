@@ -1,6 +1,7 @@
 # TextAnalyzer:
 
-This is my first program written in Java.
+This is my first program written in Java. It was an early version of my
+Text-Analyzer Android App (see repository)
 
 It takes your input as a string and calculates the percentage
 of each character with respect to the whole string, as well as a barchart.
